@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>康托科技 </title>
+  <link rel="stylesheet" href="/assets/css/styles.css" />
+  <!-- bootstrap js -->
+  <script async src="/assets/js/bootstrap.bundle.min.js"></script>
+  <!-- favicon -->
+  <link rel="icon" href="/assets/images/favicon.png" type="image/x-icon" />
+  <!-- apple torch icon -->
+  <link rel="apple-touch-icon" href="/assets/images/apple-logo.jpg" />
+  <!-- meta -->
+  <meta name="description" content="
+  康托科技專注於RWD響應式網站設計，涵蓋購物車系統、飯店民宿網站以及企業官網等領域。我們的專業設計提升您的品牌形象，為您的網路行銷帶來可見成效
+  " />
+  <link rel="canonical" href="http://localhost:4000/about.html" />
+  <!-- og meta-->
+  <meta property="og:title"
+    content="康托科技" />
+  <meta property="og:description"
+    content="Cantor 擁有洞悉市場趨勢的專案企劃、王牌級的 UI/UX 設計師，以及頂尖的前端與程式開發專家。我們以團隊合作提供完整的網站設計解決方案，並且各客戶都給予100% 滿意度，充份展現出客戶對我們專業與實力的高度信任與肯定" />
+  <meta property="og:image"
+    content="http://localhost:4000/assets/images/og_image.jpg" />
+  <meta property="og:url" content="http://localhost:4000/about.html">
+
+
+  <link rel="stylesheet" href="/assets/css/glightbox.min.css">
+  <!-- Range slider-->
+  <link rel="stylesheet" href="/assets/css/nouislider.min.css">
+  <!-- Choices CSS-->
+  <link rel="stylesheet" href="/assets/css/choices.min.css">
+  <!-- Swiper slider-->
+  <link rel="stylesheet" href="/assets/css/swiper-bundle.min.css">
+  <!-- Google fonts-->
+  <link rel="stylesheet" href="/assets/css/css2-LibreFranklinwght300400700_swap.css">
+  <link rel="stylesheet" href="/assets/css/css2-MartelSanswght300400800_swap.css">
+  <!-- theme stylesheet-->
+  <link rel="stylesheet" href="/assets/css/style.default.3fcf2f25.css" id="theme-stylesheet">
+  <!-- Custom stylesheet - for your changes-->
+  <link rel="stylesheet" href="/assets/css/custom.0a822280.css">
+
+  <!-- FontAwesome CSS -->
+  <script src="/assets/js/3f950a1575.js" crossorigin="anonymous"></script>
+
+</head>
+
+
+<body>
+  <div class="page-holder">
+    <header class="header bg-white">
+  <!-- navbar -->
+  <div class="container px-lg-3">
+    <nav class="navbar navbar-expand-lg navbar-light py-3 px-lg-0">
+      <a class="navbar-brand" href="/index.html" id="brand">
+        <img src="/assets/images/logo1.png" alt="公司Logo" width="39" height="30" class="me-2">
+        <span class="fw-bold text-uppercase text-dark">Cantor</span>
+      </a>
+
+      <!-- Toggle Button to Open/Close Offcanvas Menu -->
+      <div class="toggle d-lg-none" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span></span><span></span>
+        <p>MENU</p>
+      </div>
+
+      <!-- Offcanvas Navbar -->
+      <div class="offcanvas offcanvas-start w-100" tabindex="-1" id="offcanvasNavbar"
+        aria-labelledby="offcanvasNavbarLabel">
+
+        <div class="offcanvas-header ">
+          <a class="navbar-brand" href="/index.html" id="brand">
+            <img src="/assets/images/logo1.png" alt="公司Logo" width="39" height="30" class="me-2">
+            <span class="fw-bold text-uppercase text-dark">Cantor</span>
+          </a>
+        </div>
+
+        <div class="offcanvas-body">
+          <ul class="navbar-nav">
+            
+            
+            <li class="nav-item">
+              <a class="nav-link active " aria-current="page"  href="/about.html">關於我們</a>
+            </li>
+            
+            
+            
+            
+            <li class="nav-item">
+              <a class="nav-link "  href="/service.html">服務項目</a>
+            </li>
+            
+            
+            
+            
+            <li class="nav-item">
+              <a class="nav-link "  href="/fee.html">設計費用</a>
+            </li>
+            
+            
+            
+            
+            <li class="nav-item">
+              <a class="nav-link "  href="/case.html">設計案例</a>
+            </li>
+            
+            
+            
+            
+            <li class="nav-item">
+              <a class="nav-link "  href="/paginatons/blog1.html">網頁知識</a>
+            </li>
+            
+            
+            
+          </ul>
+
+          <!-- Contact Links -->
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="tel:0937-214165"><i
+                  class="fa-solid fa-phone me-1 text-gray"></i>0937-214165</a></li>
+            <li class="nav-item"><a class="nav-link" href="https://line.me/ti/p/~@840qnzri"><i
+                  class="fa-brands fa-line me-1 text-gray fw-normal"></i>Line</a></li>
+            <li class="nav-item"><a class="nav-link" href="https://www.facebook.com/search/top?q=%E5%BA%B7%E6%89%98%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8"><i
+                  class="fa-brands fa-facebook-f me-1 text-gray fw-normal"></i>FaceBook</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+</header>
+
+
+
+<style>
+  /* 感應大小 */
+  .toggle {
+    display: block;
+    position: fixed;
+    z-index: 2000;
+    cursor: pointer;
+    top: 0px;
+    right: 0;
+    width: 120px;
+    height: 120px;
+  }
+
+  /* 字大小 */
+  .toggle p {
+    text-align: center;
+    margin-top: 70px;
+    letter-spacing: 0.1em;
+    font-size: 1rem;
+  }
+
+  /* 線大小 */
+  .toggle span {
+    width: 40px;
+    height: 3px;
+    border-radius: 3px;
+    display: block;
+    position: absolute;
+    background: #333;
+    left: 43px;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+  }
+
+  .toggle span:first-child {
+    top: 44px;
+  }
+
+  .toggle span:nth-child(2) {
+    top: 57px;
+  }
+
+  .toggle:hover span:first-child {
+    top: 43px;
+  }
+
+  .toggle:hover span:nth-child(2) {
+    top: 61px;
+  }
+
+  .toggle.active span:first-child {
+    transform: rotate(30deg);
+    top: 52px;
+  }
+
+  .toggle.active span:nth-child(2) {
+    transform: rotate(-30deg);
+    top: 52px;
+  }
+
+  #brand {
+    z-index: 1020;
+    /* 確保優先顯示 */
+  }
+
+
+
+  .offcanvas.show .navbar-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* 水平置中 */
+}
+
+.offcanvas.show .nav-link {
+  font-size: 1rem; /* 放大字體 */
+  margin: 0.5rem 0; /* 增加上下間距 */
+  text-align: center; /* 確保文字置中 */
+  transition: color 0.3s ease; /* 增加滑順效果 */
+}
+
+
+.offcanvas.show {
+  background-color: rgba(255, 255, 255, 0.98); /* 展開時白色背景，80%透明 */
+ 
+}
+
+  
+</style>
+
+
+<script>
+  document.querySelector('.toggle').addEventListener('click', function () {
+    this.classList.toggle('active'); // 切換樣式
+  });
+
+</script>
+    <div class="page-holder ">
+    <div class="container">
+        <!-- HERO SECTION-->
+        <section class="py-5 bg-light">
+            <div class="container">
+                <div class="row px-4 px-lg-5 py-lg-4 align-items-center">
+                    <div class="col-lg-6">
+                        <h1 class="h2 text-uppercase mb-0">關於我們</h1>
+                    </div>
+                    <div class="col-lg-6 text-lg-end">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb justify-content-lg-end mb-0 px-0 bg-light">
+                                <li class="breadcrumb-item"><a class="text-dark" href="index.html">首頁</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">關於我們</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="row ">
+
+            <h2 class="mt-5">Cantor相信 <br />
+                專注網頁設計，才能做到最好</h2>
+            <hr />
+            <div class="col-md-6">
+
+                <h5> 匯聚 20 位各領域的專業人才，打造最卓越的設計團隊</h5>
+                <p class=" text-start pt-3 text-muted">
+
+                    Cantor 擁有洞悉市場趨勢的專案企劃、王牌級的 UI/UX 設計師，以及頂尖的前端與程式開發專家。我們以團隊合作提供完整的網站設計解決方案，並且各客戶都給予100%
+                    滿意度，充份展現出客戶對我們專業與實力的高度信任與肯定。
+                </p>
+
+
+                <h5>從視覺設計與功能規劃到 SEO 搜尋引擎優化，
+                    我們嚴謹把控網站設計的每一處細節，力求完美無遺</h5>
+                <p class=" text-start pt-3 text-muted">
+                    在康托科技，我們以關注細節為核心，結合縝密的專案規劃、強大的製作團隊，以及超過千家的客製化網站成功案例，致力於縮短資訊落差。我們透過專屬的改版顧問服務，與您緊密合作，深入了解您的需求、品牌價值及目標客群，將這些關鍵要素完美融入網站設計與開發中，助您逐步實現高效能且具實質價值的網站。
+                </p>
+                <p class=" text-start pt-3 text-muted">
+
+                    我們始終相信，一個卓越的網站不僅是企業的展示窗口，更是與客戶互動、傳遞品牌價值、實現業務目標的關鍵利器。康托科技致力於為企業打造兼具商業價值與品牌特色的網站，助您在競爭激烈的網路世界中穩健立足，展現獨一無二的優勢，並充分利用網路帶來的無限商機。
+
+
+                </p>
+                <p class=" text-start pt-3 text-muted">
+                    康托科技不僅是一家網頁設計公司，更是您在經營數位品牌形象上的長期夥伴。讓我們攜手創造一個既美觀又實用，且能為您帶來實質效益的網站，讓它成為您企業的最佳代言人。
+                </p>
+
+                <h5>
+                    從報價評估、架構規劃、文案素材準備，到後台操作教學，我們全程引導，為您提供最全面、細緻的網站建置流程體驗
+                </h5>
+                <p class=" text-start pt-3 text-muted">
+                    康托科技深耕於各大產業領域，涵蓋企業形象、連鎖品牌、餐飲美食以及購物型電商網站。選擇康托科技作為您的網頁設計夥伴，我們將以完善的建置流程，引領您的企業品牌實現網站架設計畫，全面達成預期目標！
+                </p>
+            </div>
+
+            <div class="col-md-6 p-0 bg-image mb-3">
+
+                <div class="overlay d-flex justify-content-center align-items-center">
+                    <a class="category-item" href="https://line.me/ti/p/~@840qnzri">
+                        <strong class="category-item-title">馬上行動</strong>
+
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </div>
+</div>
+
+<style>
+    .bg-image {
+        background-image: url('/assets/images/pic/mo4.jpg');
+        /* 替換成你的圖片路徑 */
+        background-size: cover;
+        /* 確保圖片覆蓋整個區域，並保持比例 */
+        background-position: center;
+        /* 圖片居中 */
+        min-height: 400px;
+        /* 如果內容過少，設置最小高度 */
+        position: relative;
+        /* 為了讓內部的子元素定位 */
+    }
+
+    .overlay {
+        position: absolute;
+        /* 絕對定位，相對於父容器 */
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        /* 使用 flexbox 將按鈕置中 */
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btn {
+        z-index: 1;
+        /* 確保按鈕位於圖片之上 */
+    }
+</style>
+
+
+    <div class="floating-button" id="pageline">
+  <a id="lineLink">
+    <!-- <div class="icon-star">★</div> -->
+    <img class="icon" src="/assets/images/logo1.png" width="28.1px" height="22.7px">
+    <div class="contact-text">聯繫我們</div>
+
+  </a>
+</div>
+
+
+<!-- 
+xs <576px	
+sm ≥576px	
+md 768px
+lg ≥992px	
+xl ≥1200px
+xxl ≥1400px 
+-->
+<style>
+  /* 初始按鈕樣式 */
+  .floating-button {
+    position: fixed;
+    /* 固定定位 */
+    bottom: 90px;
+    /* 距離底部 90px */
+    right: -115px;
+    /* 初始位置在螢幕右側外 */
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    /* 平滑過渡效果 */
+    opacity: 0;
+    /* 初始透明度為 0 */
+    z-index: 1000;
+    /* 確保按鈕在最上層 */
+  }
+
+  /* 顯示按鈕時的樣式 */
+  .floating-button.visible {
+    transform: translateX(-110px);
+    /* 從右滑入螢幕 */
+    opacity: 1;
+    /* 完全顯示 */
+  }
+
+  /* 按鈕內部結構 */
+  .floating-button a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #F4F5F9;
+    /* 初始背景顏色 */
+    color: #333;
+    /* 文字顏色 */
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 0px;
+    cursor: pointer;
+    width: 45px;
+    /* 寬度 */
+    height: 120px;
+    /* 高度 */
+  }
+
+  /* 星星符號樣式 */
+  .icon {
+    font-size: 20px;
+    margin-bottom: 5px;
+    /* 星星和文字的間距 */
+  }
+
+  /* 文字樣式 */
+  .contact-text {
+    font-size: 14px;
+    margin-bottom: 10px;
+    writing-mode: vertical-rl;
+    /* 文字直立 */
+    text-align: center;
+  }
+
+
+  /* 滑鼠懸停時的效果 */
+  .floating-button a:hover {
+    background-color: #323961;
+    /* 懸停背景顏色 */
+    color: #fff;
+    /* 懸停文字顏色 */
+  }
+</style>
+
+
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const pageLine = document.getElementById("pageline");
+    const lineLink = document.getElementById("lineLink");
+
+    // 監聽滾動事件
+    window.addEventListener("scroll", function () {
+      // 判斷滾動高度是否大於 800
+      if (window.scrollY > 800) {
+        pageLine.classList.add("visible"); // 顯示按鈕（滑入效果）
+        lineLink.setAttribute("href", "https://line.me/ti/p/~@840qnzri"); // 更新為真實的URL
+      } else {
+        pageLine.classList.remove("visible"); // 隱藏按鈕（滑出效果）
+        lineLink.setAttribute("href", "line://ti/p/@840qnzri"); // 當不顯示時，將 href 設置為 # 或其他預設連結
+      }
+    });
+  });
+</script>
+  </div>
+
+<footer class="bg-dark text-white">
+    <div class="container py-4">
+      <div class="row py-5">
+        <div class="col-md-4 mb-3 mb-md-0">
+          <h6 class="text-uppercase mb-3">快速連結</h6>
+          <ul class="list-unstyled mb-0">
+            <li><a class="footer-link" href="/index.html">首頁</a></li>
+            <li><a class="footer-link" href="/about.html">關於我們</a></li>
+            <li><a class="footer-link" href="/service.html">服務項目</a></li>
+            <li><a class="footer-link" href="/fee.html">設計費用</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4 mb-3 mb-md-0">
+          <h6 class="text-uppercase mb-3">快速連結</h6>
+          <ul class="list-unstyled mb-0">
+            <li><a class="footer-link" href="/case.html">設計案例</a></li>
+            <li><a class="footer-link" href="/knowledge.html">網頁知識</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h6 class="text-uppercase mb-3">聯系我們</h6>
+          <ul class="list-unstyled mb-0">
+            <li><a class="footer-link" href="https://line.me/ti/p/~@840qnzri"><i
+                class="fa-brands fa-line me-1 text-gray fw-normal"></i>Line</a></li>
+            <li><a class="footer-link" href="https://www.facebook.com/search/top?q=%E5%BA%B7%E6%89%98%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8"><i class="fa-brands fa-facebook-f me-1 text-gray fw-normal"></i>FaceBook</a></li>
+            <li><a class="footer-link" href="tel:0937-214165">
+                <i class="fa-solid fa-phone  me-1 text-gray "></i>0937-214165</a></li>
+            <li><a class="footer-link" href="mailto:neking1228@gmail.com"><i class="fa-regular fa-envelope me-1 text-gray fw-normal"></i>Email</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="border-top pt-4" style="border-color: #1d1d1d !important">
+        <div class="row">
+          <div class="col-md-6 text-center text-md-start">
+            <p class="small text-muted mb-0">© Copyright 2024 康托科技.</p>
+          </div>
+          <div class="col-md-6 text-center text-md-end">
+            <p class="small text-muted mb-0">Designed by <a class="text-white reset-anchor"
+                href="/index.html"> Cantor Technology Co., Ltd</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
